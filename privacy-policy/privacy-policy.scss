@@ -57,14 +57,12 @@
 }
 
 .main {
-  width: clamp(40rem, 85vw, 50rem);
-  margin: 4rem auto;
-
+  padding: 4vw;
+  text-align: center;
   font-size: $title;
+  font-weight: 700;
   color: $secondary;
-  font-weight: 300;
-  line-height: 3rem;
-
+  font-size: $title;
   .section {
     font-size: $subtitle;
     margin: 2rem;
