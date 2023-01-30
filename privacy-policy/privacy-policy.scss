@@ -41,7 +41,7 @@
       text-transform: uppercase;
       margin: 0 auto;
       text-align: center;
-      width: 300px;
+      width: 200px;
       position: relative;
       bottom: 4vh;
 
@@ -57,12 +57,11 @@
 }
 
 .main {
-  padding: 4vw;
-  text-align: center;
+  width: clamp(40rem, 85vw, 50rem);
+  margin: 4rem auto;
   font-size: $title;
   font-weight: 700;
   color: $secondary;
-  font-size: $title;
   .section {
     font-size: $subtitle;
     margin: 2rem;
